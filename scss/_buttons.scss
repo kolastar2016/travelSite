@@ -33,3 +33,16 @@
 
   }
 }
+
+.buttonLoveTripIcon {
+	margin-left: 3rem;
+    border: 1.5rem solid yellow;
+    background: yellow;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+
+    &:hover {
+		border: 1.5rem solid white;
+		background: none;
+	}
+}

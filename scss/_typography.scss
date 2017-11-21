@@ -16,7 +16,7 @@ a {
     	text-decoration: none;
     	color: white;
     	border-bottom: 0.1rem solid white;    	
-  }
+  	}
 }
 
 span {
@@ -51,11 +51,60 @@ span {
 	transform-origin: bottom center;
 }
 
-
 .textDiscover {
-	float: right;
-	margin-left: 66rem;
-	margin-right: 23rem;
+	margin-left: 40.5rem;
+	padding-top: 3.5rem;
+	font-family: "Ubuntu";
+	font-weight: bold;
+  	color: rgb(37, 45, 43);
+}
+
+.textDiscoverText {
+	margin-left: 40.5rem;
+	margin-right: 3rem;
 	font-family: "Ubuntu";
   	color: rgb(37, 45, 43);
+}
+
+.makeFriends {
+	margin-top: -11rem;
+}
+
+.textMakeFriends {
+	padding-top: 5rem;
+	margin-left: -32rem;
+	font-family: "Ubuntu";
+	font-weight: bold;
+  	color: rgb(37, 45, 43);
+}
+
+.textMakeFriendsText {
+	margin-left: -32rem;
+	font-family: "Ubuntu";
+  	color: rgb(37, 45, 43);
+}
+
+.tripHeader {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2rem;
+	margin-bottom: 4rem
+}
+
+.loveTrip {
+	margin-left: 3rem; 
+	display: flex;
+	text-align: center;
+	font-family: "Ubuntu";
+  	color: rgb(37, 45, 43);
+}
+
+.loveTripHeader {
+	font-weight: bold;
+	margin-left: 3rem; 
+}
+
+.loveTripText {
+	margin-top: 1rem;
+	margin-left: 3rem; 	
 }
