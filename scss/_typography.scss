@@ -9,24 +9,19 @@ body {
 	padding: 0rem;
 }
 
+
 a {
-  	color: white;
-  
-	&:hover {
-    	text-decoration: none;
-    	color: white;
-    	border-bottom: 0.1rem solid white;    	
-  	}
+  color: white;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 0.1rem solid white;
+  }
 }
 
 span {
 	color: white;
-	position: relative;
-	top: -0.2rem;
-  
-	&:hover {
-    	color: white;
-  }
 }
 
 .textTrip {
@@ -36,7 +31,7 @@ span {
   	text-align: center;
   	position: absolute;
   	margin-left: 33rem;
-  	margin-top: 13rem;
+  	margin-top: 16rem;
   	z-index: 16rem;
 
 }
@@ -52,7 +47,7 @@ span {
 }
 
 .textDiscover {
-	margin-left: 40.5rem;
+	margin-left: 36.5rem;
 	padding-top: 3.5rem;
 	font-family: "Ubuntu";
 	font-weight: bold;
@@ -60,7 +55,7 @@ span {
 }
 
 .textDiscoverText {
-	margin-left: 40.5rem;
+	margin-left: 36.5rem;
 	margin-right: 3rem;
 	font-family: "Ubuntu";
   	color: rgb(37, 45, 43);
@@ -107,4 +102,33 @@ span {
 .loveTripText {
 	margin-top: 1rem;
 	margin-left: 3rem; 	
+}
+
+.textFind {
+	font-size: 5.6rem;
+	font-family: "Forte";
+	color: white;
+	position: absolute;
+	margin-left: 19rem;
+	margin-top: 18rem;
+	transform-origin: bottom center;
+}
+
+.placeHeader {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+
+.placeDots {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.placeDotsText {
+	text-align: center;
+	font-family: "Ubuntu";
+  	color: rgb(37, 45, 43);
 }
