@@ -19,7 +19,7 @@
 .butttonDown {
 	border: 0.1rem solid white; 
     border-radius: 50rem;
-    background: white;
+    background: url(https://png.icons8.com/expand-arrow/ios11/30) no-repeat center white;
     box-shadow: 0rem 0.9rem 2rem 0rem rgba(0, 0, 0, 0.39);
     position: absolute;
     margin-left: 40rem;
@@ -29,20 +29,95 @@
 
 	&:hover {
 		border: 0.1rem solid white;
-		background: none;
+		background: url(https://png.icons8.com/expand-arrow/ios11/30) no-repeat center #a6a6a6;
 
   }
 }
 
-.buttonLoveTripIcon {
+.buttonLoveTripIconOne {
 	margin-left: 3rem;
-    border: 1.5rem solid yellow;
-    background: yellow;
+    border: 1.5rem solid #f4cb19;
+    background: #f4cb19;
     border-radius: 1rem;
     margin-bottom: 2rem;
 
-    &:hover {
-		border: 1.5rem solid white;
-		background: none;
+ 	  &:hover {
+    	background: url(https://png.icons8.com/business-filled/ios7/40/000000) no-repeat center #a6890d;
+		border: 1.5rem solid #a6890d;
 	}
+}
+
+.buttonLoveTripIconTwo {
+	margin-left: 3rem;
+    border: 1.5rem solid #ef3ef0;
+    background: #ef3ef0;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+
+ 	  &:hover {
+    	background: url(https://png.icons8.com/camera/win8/40/000000) no-repeat center #b12fb2;
+		border: 1.5rem solid #b12fb2;
+	}
+}
+
+.buttonLoveTripIconThree {
+	margin-left: 3rem;
+    border: 1.5rem solid #4185f6;
+    background: #4185f6;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+
+ 	  &:hover {
+    	background: url(https://png.icons8.com/graduation-cap-filled/ios7/40/000000) no-repeat center #3161b1;
+		border: 1.5rem solid #3161b1;
+	}
+}
+
+.buttonLoveTripIconFour {
+	margin-left: 3rem;
+    border: 1.5rem solid #36e164;
+    background: #36e164;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+
+ 	  &:hover {
+    	background: url(https://png.icons8.com/ghost-filed/win8/40/000000) no-repeat center #269042;
+		border: 1.5rem solid #269042;
+	}
+}
+
+.buttonJoinPlaces {
+	color: #e620e0;
+    border: 0.1rem solid #e620e0;
+    margin-top: 2rem;
+    margin-left: 36rem;
+    margin-right: 37rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    &:hover {
+    	background: #e620e0;
+    	color: white; 
+    }
+}
+
+.buttonUp {
+	border: 0.1rem solid white; 
+    border-radius: 50rem;
+    background: url(https://png.icons8.com/collapse-arrow/ios11/30) no-repeat center white;
+    box-shadow: 0rem 0.9rem 2rem 0rem rgba(0, 0, 0, 0.39);
+    position: absolute;
+    margin-left: 40rem;
+    margin-top: 6.3rem;
+    width: 4rem;
+    height: 4rem;
+
+	&:hover {
+		border: 0.1rem solid white;
+		background: url(https://png.icons8.com/collapse-arrow/ios11/30) no-repeat center #a6a6a6;
+
+  }
 }

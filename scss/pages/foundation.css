@@ -2332,7 +2332,7 @@ a.button:hover, a.button:focus {
   .menu select,
   .menu a,
   .menu button {
-    margin-bottom: 0; }
+    margin-bottom:	-44px; }
   .menu input {
     display: inline-block; }
   .menu, .menu.horizontal {

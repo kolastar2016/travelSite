@@ -7,12 +7,194 @@ ul > li {
 	margin-top: 4rem;
 }
 
-.footerNav > ul > li {
-	margin-top: 15rem; 
+.empty {
+	background: white;
+    border: 1rem solid white;
 }
 
-.footerImg .test {
-	//color: white;
-	text-alight: center;
+.dotsInMapOne { 
+	width: 1.5rem;
+    height: 1.5rem;
+	box-shadow: 0rem 0rem 1.9rem 0rem rgba(255,255,255,1);
+    border: 0.5rem solid #ffba25;
+    border-radius: 1rem;
+    background: #ffffff;
+    margin-left: 30.5rem;
+    margin-top: 3.5rem;
+}
+
+.dotsInMapTwo { 
+	width: 1.5rem;
+    height: 1.5rem;
+	box-shadow: 0rem 0rem 1.9rem 0rem rgba(255,255,255,1);
+    border: 0.5rem solid #ffba25;
+    border-radius: 1rem;
+    background: #ffffff;
+   	margin-left: 42rem;
+    margin-top: -2.5rem;
+}
+
+.dotsInMapThree { 
+	width: 1.5rem;
+    height: 1.5rem;
+	box-shadow: 0rem 0rem 1.9rem 0rem rgba(255,255,255,1);
+    border: 0.5rem solid #ffba25;
+    border-radius: 1rem;
+    background: #ffffff;
+    margin-left: 71.5rem;
+    margin-top: 3rem;
+}
+
+.dotsInMapFour { 
+	width: 1.5rem;
+    height: 1.5rem;
+	box-shadow: 0rem 0rem 1.9rem 0rem rgba(255,255,255,1);
+    border: 0.5rem solid #ffba25;
+    border-radius: 1rem;
+    background: #ffffff;
+    margin-left: -16.5rem;
+    margin-top: 1rem;
+}
+
+.dotsInMapFive { 
+	width: 1.5rem;
+    height: 1.5rem;
+	box-shadow: 0rem 0rem 1.9rem 0rem rgba(255,255,255,1);
+    border: 0.5rem solid #ffba25;
+    border-radius: 1rem;
+    background: #ffffff;
+    margin-left: 7.5rem;
+    margin-top: -2rem;
+}
+
+.dotsInMapSix { 
+	width: 1.5rem;
+    height: 1.5rem;
+	box-shadow: 0rem 0rem 1.9rem 0rem rgba(255,255,255,1);
+    border: 0.5rem solid #ffba25;
+    border-radius: 1rem;
+    background: #ffffff;
+    margin-left: 36.5rem;
+    margin-top: 2rem;
+}
+
+.dotsInMapSeven { 
+	width: 1.5rem;
+    height: 1.5rem;
+	box-shadow: 0rem 0rem 1.9rem 0rem rgba(255,255,255,1);
+    border: 0.5rem solid #ffba25;
+    border-radius: 1rem;
+    background: #ffffff;
+    margin-left: 10rem;
+    margin-top: -2.5rem;
+}
+
+.dotsInMapEight { 
+	width: 1.5rem;
+    height: 1.5rem;
+	box-shadow: 0rem 0rem 1.9rem 0rem rgba(255,255,255,1);
+    border: 0.5rem solid #ffba25;
+    border-radius: 1rem;
+    background: #ffffff;
+    margin-left: 42.5rem;
+    margin-top: 3rem;
+}
+
+.dotsInMapNine { 
+	width: 1.5rem;
+    height: 1.5rem;
+	box-shadow: 0rem 0rem 1.9rem 0rem rgba(255,255,255,1);
+    border: 0.5rem solid #ffba25;
+    border-radius: 1rem;
+    background: #ffffff;
+    margin-left: -5.3rem;
+    margin-top: 1rem;
+}
+
+.dotsInMapTen { 
+	width: 1.5rem;
+    height: 1.5rem;
+	box-shadow: 0rem 0rem 1.9rem 0rem rgba(255,255,255,1);
+    border: 0.5rem solid #ffba25;
+    border-radius: 1rem;
+    background: #ffffff;
+    margin-left: 40rem;
+    margin-top: 5rem;
+}
+
+.dotsInMapEleven { 
+	width: 1.5rem;
+    height: 1.5rem;
+	box-shadow: 0rem 0rem 1.9rem 0rem rgba(255,255,255,1);
+    border: 0.5rem solid #ffba25;
+    border-radius: 1rem;
+    background: #ffffff;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+.dotsInMapTwelve { 
+	width: 1.5rem;
+    height: 1.5rem;
+	box-shadow: 0rem 0rem 1.9rem 0rem rgba(255,255,255,1);
+    border: 0.5rem solid #ffba25;
+    border-radius: 1rem;
+    background: #ffffff;
+    margin-left: 25.5rem;
+    margin-top: 5rem;
+}
+
+.dotsInMapThirteen { 
+	width: 1.5rem;
+    height: 1.5rem;
+	box-shadow: 0rem 0rem 1.9rem 0rem rgba(255,255,255,1);
+    border: 0.5rem solid #ffba25;
+    border-radius: 1rem;
+    background: #ffffff;
+    margin-left: 0.5rem;
+    margin-top: 4rem;
+}
+
+.dotsInMapFourteen { 
+	width: 1.5rem;
+    height: 1.5rem;
+	box-shadow: 0rem 0rem 1.9rem 0rem rgba(255,255,255,1);
+    border: 0.5rem solid #ffba25;
+    border-radius: 1rem;
+    background: #ffffff;
+    margin-left: 61rem;
+    margin-top: -12rem;
+}
+
+.dotsInMapFifteen { 
+	width: 1.5rem;
+    height: 1.5rem;
+	box-shadow: 0rem 0rem 1.9rem 0rem rgba(255,255,255,1);
+    border: 0.5rem solid #ffba25;
+    border-radius: 1rem;
+    background: #ffffff;
+    margin-left: -13.5rem;
+    margin-top: 11.5rem;
+}
+
+.dotsInMapSixteen { 
+	width: 1.5rem;
+    height: 1.5rem;
+	box-shadow: 0rem 0rem 1.9rem 0rem rgba(255,255,255,1);
+    border: 0.5rem solid #ffba25;
+    border-radius: 1rem;
+    background: #ffffff;
+    margin-left: 3rem;
+    margin-top: -0.5rem;
+}
+
+.footerNav > ul > li {
+	margin-top: 3.5rem; 
+}
+
+.dataFooter {
+	display: block;
+	color: white;
+	text-align: center;
 	margin-top: 10rem;
 }
