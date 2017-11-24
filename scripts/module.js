@@ -1,5 +1,4 @@
 // foundation start
-$(document).foundation();
 
 var rhombus=document.getElementById('rhombus');
 var rhombusText=rhombus.getContext('2d');

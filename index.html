@@ -6,26 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/pages/home.css">
     <!-- Compressed CSS -->
-	<link rel="stylesheet" href="scss/pages/foundation.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css"/>
 </head>
 <body>
-    <section class="headerImg ">
-    	<header class="row">
-    		<nav class="headerNav columns">
+    <section>
+        <a name="Main"></a>
+    	<header class="headerImg" >
+    		<nav class="headerNav">
     			<ul class="menu align-center">
-    				<li class="h5"><a href=""><span> Main </span></a></li>
-    				<li class="h5"><a href=""><span> About trip </span></a></li>
-    				<li class="h5"><a href=""><span> For whom </span></a></li>
-    				<li class="h5"><a href=""><span> Places </span></a></li>
+    				<li class="h5"><a href="#Main"><span> Main </span></a></li>
+    				<li class="h5"><a href="#About"><span> About trip </span></a></li>
+    				<li class="h5"><a href="#Whom"><span> For whom </span></a></li>
+    				<li class="h5"><a href="#Places"><span> Places </span></a></li>
     			</ul>
     		</nav>
     	</header>
-    	</div>
-    	<p class="textTrip" id="textTrip">
-    		<span class="words"> The </span>
-    		<span class="words"> amazing </span>
-    		<span class="words"> trip </span> 
-    	</p>
+    	<p class="textTrip" > The amazing trip </p>
 		<div class="textWorld">
 			<b>A</b>
 			<b>r</b>
@@ -43,13 +39,13 @@
 			<b>d</b>
 		</div>
 		<div class="buttonJoinHeader"> Join the team </div>
-		 <div class="butttonDown">
-		 </div>
+		<div class="butttonDown"> </div>
     </section>
-    <section>
-		<canvas id="rhombus" class="rhombus" ></canvas>
+    <section >
+        <a name="About"></a>
     	<div> <!-- Discover the culture -->
-    		<div class="discover"> 
+    		<div class="discover">
+                <canvas id="rhombus" class="rhombus" ></canvas>
     			<div class="discoverImg"> <!-- img -->
     				<h3 class="textDiscover">Discover the culture</h3>
     				<p class="textDiscoverText"> 
@@ -59,11 +55,10 @@
     				</p>
     			</div>
     		</div>
-    		<canvas id="cube" class="cube"></canvas>	
-    	</div>
-    	
+        </div>
     	<div> <!-- Make new friends -->
     		<div class="makeFriends">
+                <canvas id="cube" class="cube"></canvas>
     			<div class="makeFriendsImg"> <!-- img -->
     				<h3 class="textMakeFriends">Make new friends</h3>
     				<p class="textMakeFriendsText"> 
@@ -76,6 +71,7 @@
     	</div>
     </section>
     <section> <!-- Who will love the trip -->
+        <a name="Whom"></a>
 		<canvas id="waveBeziers" class="waveBeziers"> </canvas>
     	<p class="tripHeader">
 		Who will love the trip
@@ -131,14 +127,17 @@
     			<b>n</b>
     		</div>
     	</div>
+
     </section>
     <section> <!-- Places me'll visit -->
-    	<p class="placeHeader">
+        <a name="Places"></a>
+        <p class="placeHeader">
 		Place we'll visit
 		</p>
-    	<div> <!-- img and text -->
+    	<div > <!-- img and text -->
 
     		<div class="placesMapImg"> <!-- map -->
+               
     			<div class="empty"></div>
     			<p class="dotsInMapOne"></p>
     				<p class="dotsInMapTwo"></p>
@@ -164,6 +163,8 @@
     				<p class="dotsInMapSixteen"></p>
     			</div>
     		</div>
+        </div>
+ 
     		<div> <!-- 16 dots on map -->
     			<p class="placeDots">
     				16 dots on map - this is not a joke
@@ -173,28 +174,25 @@
     			</p>
     			<div class="buttonJoinPlaces"> Join the team </div>
     		</div>
-    	</div>
+   
     </section>
-    <footer> <!-- Footer -->
+    <footer> <!-- Footer -->  
     	<div class="footerImg">
     		<div class="empty"></div>
     		<h9 class="dataFooter"> &copy; 2017 </h9>
-    		<div class="row">
-    			<nav class="footerNav columns">
-    				<ul class="menu align-center">
-    					<li class="h5"><a href=""><span> Main </span></a></li>
-    					<li class="h5"><a href=""><span> About trip </span></a></li>
-    					<li class="h5"><a href=""><span> For whom </span></a></li>
-    					<li class="h5"><a href=""><span> Places </span></a></li>
-    				</ul>
-    			</nav>
-    		</div>
-    		<div class="buttonUp"> </div>
+       		<nav class="footerNav columns">
+    			<ul class="menu align-center">
+    				<li class="h5"><a href="#Main"><span> Main </span></a></li>
+                    <li class="h5"><a href="#About"><span> About trip </span></a></li>
+                    <li class="h5"><a href="#Whom"><span> For whom </span></a></li>
+                    <li class="h5"><a href="#Places"><span> Places </span></a></li>
+    			</ul>
+    		</nav>
     	</div>
+    	<div class="buttonUp"> </div>
     </footer>
-	<script src="scripts/vendor/jquery.js"></script>
-    <script src="scripts/vendor/what-input.js"></script>
-    <script src="scripts/vendor/foundation.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"> </script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js" ></script>
     <script src="./js/build.js"></script>
 </body>
 </html>
