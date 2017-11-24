@@ -1,0 +1,154 @@
+// ---------------------------
+// Text Word around
+// --------------------------
+.textWorld  b:nth-of-type(-n+14) {
+	position: absolute;
+	padding-bottom: 40%; /* отступ от центра круга */
+}
+
+.textWorld b:nth-of-type(1) {
+	transform: rotate(272deg);	
+}
+
+.textWorld b:nth-of-type(2) { 
+	transform: rotate(288deg);
+} 
+
+.textWorld b:nth-of-type(3) {
+	transform: rotate(298deg);
+} 
+
+.textWorld b:nth-of-type(4) {
+	transform: rotate(309deg);
+} 
+
+.textWorld b:nth-of-type(5) {
+	transform: rotate(326deg);
+} 
+
+.textWorld b:nth-of-type(6) {
+	transform: rotate(341deg);
+} 
+
+.textWorld b:nth-of-type(7) {
+	transform: rotate(362deg);
+} 
+
+.textWorld b:nth-of-type(8) {
+	transform: rotate(370deg);
+} 
+
+.textWorld b:nth-of-type(9) {
+	transform: rotate(383deg);
+} 
+
+.textWorld b:nth-of-type(10) {
+	transform: rotate(401deg);
+} 
+
+.textWorld b:nth-of-type(11) {
+	transform: rotate(417deg);
+} 
+
+.textWorld b:nth-of-type(12) {
+	transform: rotate(428deg);
+} 
+
+.textWorld b:nth-of-type(13) {
+	transform: rotate(437deg);
+} 
+
+.textWorld b:nth-of-type(14) {
+	transform: rotate(450deg);
+} 
+
+// --------------
+// Text Find around
+// --------------
+.textFind  b:nth-of-type(-n+15) {
+	position: absolute;
+	padding-bottom: 40%; /* отступ от центра круга */
+}
+
+.textFind b:nth-of-type(1) {
+	transform: rotate(290deg);	
+}
+
+.textFind b:nth-of-type(2) { 
+	transform: rotate(302deg);
+} 
+
+.textFind b:nth-of-type(3) {
+	transform: rotate(310deg);
+} 
+
+.textFind b:nth-of-type(4) {
+	transform: rotate(325deg);
+} 
+
+.textFind b:nth-of-type(5) {
+	transform: rotate(365deg);
+} 
+
+.textFind b:nth-of-type(6) {
+	transform: rotate(377deg);
+} 
+
+.textFind b:nth-of-type(7) {
+	transform: rotate(390deg);
+} 
+
+.textFind b:nth-of-type(8) {
+	transform: rotate(402deg);
+} 
+
+.textFind b:nth-of-type(9) {
+	transform: rotate(414deg);
+} 
+
+.textFind b:nth-of-type(10) {
+	transform: rotate(420deg);
+} 
+
+.textFind b:nth-of-type(11) {
+	transform: rotate(430deg);
+} 
+
+.textFind b:nth-of-type(12) {
+	transform: rotate(443deg);
+} 
+
+.textFind b:nth-of-type(13) {
+	transform: rotate(450deg);
+} 
+
+.textFind b:nth-of-type(14) {
+	transform: rotate(460deg);
+} 
+
+.textFind b:nth-of-type(15) {
+	transform: rotate(473deg);
+} 
+
+// ----------------------------
+// canvas
+// ---------------------------
+.rhombus {
+	width: 23rem;
+    height: 11rem;
+	margin-bottom: -10rem;
+}
+
+.cube {
+	width: 9rem;
+    height: 11rem;
+	margin-left: 75rem;
+    margin-top: -10rem;
+}
+
+.waveBeziers {
+	margin-top: -5rem;
+    height: 10.6rem;
+    width: 84.25rem;
+    margin-bottom: -6rem;
+}
