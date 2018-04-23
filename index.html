@@ -7,13 +7,19 @@
     <link rel="stylesheet" href="./css/pages/home.css">
     <!-- Compressed CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css"/>
+	<!-- foundation-float.css: Compressed CSS with legacy Float Grid -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation-float.css"/>
+	<!-- foundation-prototype.css: Compressed CSS with prototyping classes -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation-prototype.css"/>
+	<!-- foundation-rtl.css: Compressed CSS with right-to-left reading direction -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation-rtl.min.css"/>
 </head>
-<body>
-    <section>
+<body class="width100">
+    <section class="headerImg width100">
         <a name="Main"></a>
-    	<header class="headerImg" >
+    	<header>
     		<nav class="headerNav">
-    			<ul class="menu align-center">
+    			<ul class="menu align-center height7">
     				<li class="h5"><a href="#Main"><span> Main </span></a></li>
     				<li class="h5"><a href="#About"><span> About trip </span></a></li>
     				<li class="h5"><a href="#Whom"><span> For whom </span></a></li>
@@ -21,95 +27,151 @@
     			</ul>
     		</nav>
     	</header>
-    	<p class="textTrip" > The amazing trip </p>
-		<div class="textWorld">
-			<b>A</b>
-			<b>r</b>
-			<b>o</b>
-			<b>u</b>
-			<b>n</b>
-			<b>d</b>
-			<b>t</b>
-			<b>h</b>
-			<b>e</b>
-			<b>w</b>
-			<b>o</b>
-			<b>r</b>
-			<b>l</b>
-			<b>d</b>
+        <div class="row">
+            <div class="large-3 medium-4 small-7 large-centered medium-centered small-centered columns">
+    	        <div class="marginTop7">
+					<p class="textTrip"> The amazing trip </p>
+				</div>
+    	    </div>
+   	    <div class="large-4 medium-10 small-12 large-centered medium-centered small-centered columns">
+			<div style="">
+		        <div class="textWorld" >
+			        <b>A</b>
+			        <b>r</b>
+			        <b>o</b>
+			        <b>u</b>
+			        <b>n</b>
+			        <b>d</b>
+			        <b>t</b>
+			        <b>h</b>
+			        <b>e</b>
+			        <b>w</b>
+			        <b>o</b>
+			        <b>r</b>
+			        <b>l</b>
+			        <b>d</b>
+		        </div>
+		    </div>
 		</div>
-		<div class="buttonJoinHeader"> Join the team </div>
-		<div class="butttonDown"> </div>
-    </section>
-    <section >
+		<div class="large-2 medium-4 small-5 large-centered medium-centered small-centered columns">
+			<div class="marginTop35">
+				<div class="buttonJoinHeader"> <a href="../error/404.html"> Join the team </a></div>
+			</div>
+		</div>
+		<div class="large-1 medium-1 small-3 large-centered medium-centered small-centered columns">
+			<div>
+				<a href="#Footer">
+					<div class="butttonDown"> </div>
+				</a>
+			</div>
+		</div>
+		</div>
+	</section>
+    <section class="width100">
         <a name="About"></a>
-    	<div> <!-- Discover the culture -->
-    		<div class="discover">
-                <canvas id="rhombus" class="rhombus" ></canvas>
-    			<div class="discoverImg"> <!-- img -->
-    				<h3 class="textDiscover">Discover the culture</h3>
-    				<p class="textDiscoverText"> 
-    					Lorem ipsum dolor sit amet, conseconsectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <br> enim ad minim veniam, quis nostrud exercitation ullamco <br> laboris nisi ut aliquip ex ea commodo consequat. <br><br>
-	
-		    			Duis aute irure dolor in reprehenderit in voluptate velit esse <br> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br> cupidatat non proident, sunt in culpa qui officia deserunt mollit <br> anim id est laborum. Sed ut perspiciatis unde omnis iste natus <br> error sit voluptatem accusantium doloremque.
-    				</p>
+		<canvas id="rhombus" class="rhombus" ></canvas>
+    	<div class="row"> <!-- Discover the culture -->
+			<div class="large-10 medium-12 small-12 large-centered columns">
+				<div class="row">
+					<div class="large-6 medium-6 small-12 large-push-6 medium-push-6 medium-push-6 small-push-12 columns">
+						<div class="padding020">
+							<h3 class="textDiscover">Discover the culture</h3>
+							<p class="textDiscoverText">
+								Lorem ipsum dolor sit amet, conseconsectetur adipisicing elit, sed do
+								<br> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								<br> enim ad minim veniam, quis nostrud exercitation ullamco
+								<br> laboris nisi ut aliquip ex ea commodo consequat.
+								<br><br>
+								Duis aute irure dolor in reprehenderit in voluptate velit esse
+								<br> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+								<br> cupidatat non proident, sunt in culpa qui officia deserunt mollit
+								<br> anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+								<br> error sit voluptatem accusantium doloremque.
+							</p>
+						</div>
+						<canvas id="cube" class="cube"></canvas>
+					</div>
+					<div class="large-6 medium-6 small-12 large-pull-6 medium-pull-6 small-pull-12 columns">
+						<div class="discover">
+							<div class="discoverImg"> <!-- img -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Make new friends -->
+			<div class="large-11 medium-12 small-12 columns">
+				<div class="row">
+					<div class="large-6 medium-6 small-12 large-push-6 medium-push-6 small-pull-12 columns">
+						<div class="makeFriends">
+							<div class="makeFriendsImg"> <!-- img --></div>
+						</div>
+					</div>
+					<div class="large-6 medium-6 small-12 large-pull-6 medium-pull-6 small-push-12 columns">
+						<h3 class="textMakeFriends">Make new friends</h3>
+						<p class="textMakeFriendsText" style="margin-bottom: 5rem;">
+    						Lorem ipsum dolor sit amet, conseconsectetur adipisicing elit, sed do
+							<br> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+							<br> enim ad minim veniam, quis nostrud exercitation ullamco
+							<br> laboris nisi ut aliquip ex ea commodo consequat.
+							<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse
+							<br> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							<br> cupidatat non proident, sunt in culpa qui officia deserunt mollit
+							<br> anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+							<br> error sit voluptatem accusantium doloremque.
+    					</p>
+    				</div>
     			</div>
     		</div>
-        </div>
-    	<div> <!-- Make new friends -->
-    		<div class="makeFriends">
-                <canvas id="cube" class="cube"></canvas>
-    			<div class="makeFriendsImg"> <!-- img -->
-    				<h3 class="textMakeFriends">Make new friends</h3>
-    				<p class="textMakeFriendsText"> 
-    					Lorem ipsum dolor sit amet, conseconsectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <br> enim ad minim veniam, quis nostrud exercitation ullamco <br> laboris nisi ut aliquip ex ea commodo consequat. <br><br>
-	
-		    			Duis aute irure dolor in reprehenderit in voluptate velit esse <br> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br> cupidatat non proident, sunt in culpa qui officia deserunt mollit <br> anim id est laborum. Sed ut perspiciatis unde omnis iste natus <br> error sit voluptatem accusantium doloremque.
-    				</p>
-    			</div>
-    		</div>
-    	</div>
+		</div>
     </section>
-    <section> <!-- Who will love the trip -->
+    <section class="width100"> <!-- Who will love the trip -->
         <a name="Whom"></a>
 		<canvas id="waveBeziers" class="waveBeziers"> </canvas>
     	<p class="tripHeader">
-		Who will love the trip
+		  Who will love the trip
 		</p>
     	<div class="loveTrip">
-    		<div> <!-- Businesmen -->
-    			<p><img  class="buttonLoveTripIconOne" src="https://png.icons8.com/business-filled/ios7/40/ffffff"></p>
+    		<div class="row"> <!-- Businesmen -->
+				<div class="large-3 medium-6 small-12 columns">
+    			<p><a href="../error/404.html"><img  class="buttonLoveTripIconOne" src="https://png.icons8.com/business-filled/ios7/40/ffffff"></a></p>
     			<h8 class="loveTripHeader">Businesmen</h8><br>
     			<p class="loveTripText">
     				Lorem ipsum dolor sit amet, <br> conseconsectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore <br> et dolore magna aliqua.
     			</p>
-    		</div>
-    		<div> <!-- Photographers -->
-   				<p><img class="buttonLoveTripIconTwo" src="https://png.icons8.com/camera/win8/40/ffffff"></p>
+			</div>
+    		 <!-- Photographers -->
+				<div class="large-3 medium-6 small-12 columns">
+   				<p><a href="../error/404.html"><img class="buttonLoveTripIconTwo" src="https://png.icons8.com/camera/win8/40/ffffff"></a></p>
     			<h8 class="loveTripHeader">Photographers</h8><br>
     			<p class="loveTripText">
     				Lorem ipsum dolor sit amet, <br> conseconsectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore <br> et dolore magna aliqua.
     			</p>
-    		</div>
-    		<div> <!-- Students -->
-    			<p><img class="buttonLoveTripIconThree" src="https://png.icons8.com/graduation-cap-filled/ios7/40/ffffff"></p>
+			</div>
+    		 <!-- Students -->
+				<div class="large-3 medium-6 small-12 columns">
+    			<p><a href="../error/404.html"><img class="buttonLoveTripIconThree" src="https://png.icons8.com/graduation-cap-filled/ios7/40/ffffff"></a></p>
 				<h8 class="loveTripHeader">Students</h8><br>
     			<p class="loveTripText">
     				Lorem ipsum dolor sit amet, <br> conseconsectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore <br> et dolore magna aliqua.
     			</p>
-    		</div>
-    		<div> <!-- freelancers -->
-    			<p><img class="buttonLoveTripIconFour" src="https://png.icons8.com/ghost-filed/win8/40/ffffff"></p>
+			</div>
+    		 <!-- freelancers -->
+				<div class="large-3 medium-6 small-12 columns">
+    			<p><a href="../error/404.html"><img class="buttonLoveTripIconFour" src="https://png.icons8.com/ghost-filed/win8/40/ffffff"></a></p>
     			<h8 class="loveTripHeader">Freelancers</h8><br>
     			<p class="loveTripText">
     				Lorem ipsum dolor sit amet, <br> conseconsectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore <br> et dolore magna aliqua.
     			</p>
-    		</div>
+				</div>
+			</div>
     	</div>
     </section>
-    <section> <!-- Find Inspiration -->
-    	<div class="findImg"> <!-- img and text -->
-    		<div class="textFind"> 
+    <section class="width100"> <!-- Find Inspiration -->
+		<div class="findImg"> <!-- img and text -->
+		<div class="row">
+			<div class="large-4 medium-11 small-12 large-centered medium-centered small-centered columns">
+    		<div class="textFind">
     			<b>F</b>
     			<b>i</b>
     			<b>n</b>
@@ -127,59 +189,46 @@
     			<b>n</b>
     		</div>
     	</div>
-
+		</div>
+		</div>
     </section>
-    <section> <!-- Places me'll visit -->
+    <section class="width100"> <!-- Places me'll visit -->
         <a name="Places"></a>
-        <p class="placeHeader">
-		Place we'll visit
-		</p>
-    	<div > <!-- img and text -->
-
-    		<div class="placesMapImg"> <!-- map -->
-               
-    			<div class="empty"></div>
-    			<p class="dotsInMapOne"></p>
-    				<p class="dotsInMapTwo"></p>
-    			
-    			<div class="dotsInMapThree">
-    				<p class="dotsInMapFour"></p>
-    			</div>
-    			<div class="dotsInMapFive">
-    				<p class="dotsInMapSix"></p>
-    				<p class="dotsInMapSeven"></p>
-    			</div>
-    			<div class="dotsInMapEight">
-    				<p class="dotsInMapNine"></p>
-    			</div>
-    			<div class="dotsInMapTen">
-    				<p class="dotsInMapEleven"></p>
-    			</div>
-    			<div class="dotsInMapTwelve">
-    				<p class="dotsInMapThirteen"></p>
-    			</div>
-    			<div class="dotsInMapFourteen">
-    				<p class="dotsInMapFifteen"></p>
-    				<p class="dotsInMapSixteen"></p>
-    			</div>
-    		</div>
-        </div>
- 
-    		<div> <!-- 16 dots on map -->
-    			<p class="placeDots">
-    				16 dots on map - this is not a joke
-    			</p>
-    			<p class="placeDotsText">
-    				Lorem ipsum dolor sit amet, conseconsectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <br> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-    			</p>
-    			<div class="buttonJoinPlaces"> Join the team </div>
-    		</div>
-   
+		<div class="row">
+			<div class="large-3 medium-4 small-7 large-centered medium-centered small-centered columns">
+				<p class="placeHeader">
+					Place we'll visit
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-12 medium-12 small-12 large-centered medium-centered small-centered columns">
+				<div class="placesMapImg"></div>
+			</div>
+		</div>
+		<div class="row"> <!-- 16 dots on map -->
+			<div class="large-3 medium-8 small-7 large-centered medium-centered small-centered columns">
+				<p class="placeDots">
+					16 dots on map - this is not a joke
+				</p>
+			</div>
+			<div class="large-8 medium-8 small-7 large-centered medium-centered small-centered columns">
+				<p class="placeDotsText">
+					Lorem ipsum dolor sit amet, conseconsectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <br> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+			</div>
+			<div class="large-2 medium-3 small-5 large-centered medium-centered small-centered columns">
+				<div class="marginTop2">
+					<div class="buttonJoinPlaces"><a class="joinPlaces" href="../error/404.html"> Join the team </a></div>
+				</div>
+			</div>
+		</div>
     </section>
-    <footer> <!-- Footer -->  
+    <footer class="width100"> <!-- Footer -->
+		<a name="Footer"></a>
     	<div class="footerImg">
     		<div class="empty"></div>
-    		<h9 class="dataFooter"> &copy; 2017 </h9>
+    		<h9 class="dataFooter"> &copy; 2018 </h9>
        		<nav class="footerNav columns">
     			<ul class="menu align-center">
     				<li class="h5"><a href="#Main"><span> Main </span></a></li>
@@ -189,7 +238,13 @@
     			</ul>
     		</nav>
     	</div>
-    	<div class="buttonUp"> </div>
+		<div class="row">
+			<div class="large-1 medium-1 small-3 large-centered medium-centered small-centered columns">
+				<a href="#Main">
+					<div class="buttonUp"></div>
+				</a>
+		</div>
+		</div>
     </footer>
     <script src="https://code.jquery.com/jquery-2.2.4.js"> </script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js" ></script>

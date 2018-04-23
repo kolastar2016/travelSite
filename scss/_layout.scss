@@ -1,9 +1,26 @@
+//-----------------------------------
+//
+//----------------------------------
+div, p, section, footer, header, aside {
+  box-sizing: border-box;
+}
+
+/*.section {
+  padding-top: containerVerIndent;
+  padding-bottom: containerVerIndent;
+
+  @media (max-width: 996px){
+    padding-top: containerVerIndentMobile;
+    padding-bottom: containerVerIndentMobile;
+  }
+}*/
+
 // ---------------------------
 // Text Word around
 // --------------------------
 .textWorld  b:nth-of-type(-n+14) {
 	position: absolute;
-	padding-bottom: 39%; /* отступ от центра круга */
+	padding-bottom: 70%; /* отступ от центра круга */
 }
 
 .textWorld b:nth-of-type(1) {
@@ -67,7 +84,7 @@
 // --------------
 .textFind  b:nth-of-type(-n+15) {
 	position: absolute;
-	padding-bottom: 40%; /* отступ от центра круга */
+	padding-bottom: 120%; /* отступ от центра круга */
 }
 
 .textFind b:nth-of-type(1) {
@@ -142,13 +159,15 @@
 .cube {
 	width: 9rem;
     height: 11rem;
-	margin-left: 75rem;
-    margin-top: -10rem;
+	float: right;
+	//margin-left: 75rem;
+   // margin-top: -10rem;
 }
 
 .waveBeziers {
+	width: 100%;
 	margin-top: -5rem;
     height: 10.6rem;
-    width: 84.25rem;
+    //width: 84.25rem;
     margin-bottom: -6rem;
 }
